@@ -1,7 +1,7 @@
 // ==================================================
 // DEFINE FUNCTION(S)
 // ==================================================
-function quotient(num1, num2) {
+function quotient(num1=0, num2=0) {
   return result = num1 / num2;
 }
 
@@ -20,7 +20,8 @@ try {
   // Test Case 2
   // --------------------------------------------------
   // It should return the text 'ERROR' when the second number is 0.
-
+  var result = quotient(2, 0);
+  if (result == Infinity) throw new Error('ERROR') ;
   // --------------------------------------------------
   // Test Case 3
   // --------------------------------------------------
