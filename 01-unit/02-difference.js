@@ -1,8 +1,8 @@
 // ==================================================
 // DEFINE FUNCTION(S)
 // ==================================================
-function difference() {
-
+function difference(num1, num2) {
+  return result = num1 - num2;
 }
 
 // ==================================================
@@ -20,6 +20,8 @@ try {
   // Test Case 2
   // --------------------------------------------------
   // It should ignore additional numbers.
+  var result = difference(1, 1, 2, 3, 4);
+  if (result !== 0) throw new Error('Expected difference(1, 1, 2, 3, 4) to be 0. Received: ' + result);
 
   // --------------------------------------------------
   // Test Case 3
