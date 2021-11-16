@@ -2,7 +2,7 @@
 // DEFINE FUNCTION(S)
 // ==================================================
 function sum(num1=0, num2=0) {
-  return result = num1 + num2
+  return result = num1 + num2;
 }
 
 // ==================================================
