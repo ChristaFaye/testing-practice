@@ -21,7 +21,7 @@ try {
   // --------------------------------------------------
   // It should return the text 'ERROR' when the second number is 0.
   var result = quotient(2, 0);
-  if (result == Infinity) throw new Error('ERROR') ;
+  if (result !== Infinity) throw new Error('ERROR') ;
   // --------------------------------------------------
   // Test Case 3
   // --------------------------------------------------
