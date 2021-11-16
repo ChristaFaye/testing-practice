@@ -3,6 +3,22 @@
 // ==================================================
 function calc() {
 
+  function sum(operation, num1=0, num2=0) {
+    return result = num1 + num2;
+  }
+
+  function difference(operation, num1=0, num2=0) {
+    return result = num1 - num2;
+  }
+
+  function product(operation, num1=0, num2=1) {
+    return result = num1 * num2;
+  }
+
+  function quotient(operation, num1=0, num2=1) {
+    return result = num1 / num2;
+  }
+  
 }
 
 // ==================================================
