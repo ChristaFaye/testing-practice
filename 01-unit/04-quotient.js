@@ -26,7 +26,8 @@ try {
   // Test Case 3
   // --------------------------------------------------
   // It should ignore additional numbers.
-
+  var result = quotient(2, 2, 3, 4);
+  if (result !== 1) throw new Error('Expected quotient(2, 2, 3, 4) to be 1. Received: ' + result);
   // --------------------------------------------------
   // Test Case 4
   // --------------------------------------------------
