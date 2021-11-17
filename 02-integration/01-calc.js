@@ -27,17 +27,6 @@ function calc(op, num1, num2) {
     case 'divide': return quotient(num1, num2);
     default: return 'Operation not supported.';
   }
-
-  
-  // if (Op=='add') {
-  //  return sum();
-  // } else if (Op=='subtract') {
-  //  return difference();
-  // } else if (Op=='multiply') {
-  //  return product();
-  // } else {
-  // return quotient();
-  // }  
 }
 
 // ==================================================
