@@ -4,6 +4,7 @@
 function quotient(num1=0, num2=1) {
   return result = num1 / num2;
 }
+//num2=1 to meet Test Case #4,however, it's not mathematically correct though. :D
 
 // ==================================================
 // DEFINE AND EXECUTE TEST CASES
