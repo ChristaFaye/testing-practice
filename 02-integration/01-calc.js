@@ -44,8 +44,8 @@ try {
   // Test Case 2
   // --------------------------------------------------
   // It should return the correct difference when the user provides: 'subtract', 20, 10.
-  //var result = calc('subtract', 1, 1);
-  //if (result !== 0) throw new Error('Expected calc("subtract", 1, 1) to be 0. Received: ' + result);
+  var result = calc('subtract', 1, 1);
+  if (result !== 0) throw new Error('Expected calc("subtract", 1, 1) to be 0. Received: ' + result);
 
   // --------------------------------------------------
   // Test Case 3
