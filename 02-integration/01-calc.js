@@ -20,8 +20,16 @@ function calc(Op, num1=0, num2=0) {
     return result = num1 / num2;
   }
   
-  return sum();
-  
+  if (Op=='add') {
+    return sum();
+  } else if (Op=='subtract') {
+    return difference();
+  } else if (Op=='multiply') {
+    return product();
+  } else {
+    return quotient();
+  }
+ 
 }
 
 // ==================================================
