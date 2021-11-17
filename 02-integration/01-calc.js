@@ -1,23 +1,26 @@
 // ==================================================
 // DEFINE FUNCTION(S)
 // ==================================================
-function calc() {
 
-  function sum(operation, num1=0, num2=0) {
+function calc(Op, num1=0, num2=0) {
+  
+  function sum(add) {
     return result = num1 + num2;
   }
 
-  function difference(operation, num1=0, num2=0) {
+  function difference(subtract) {
     return result = num1 - num2;
   }
 
-  function product(operation, num1=0, num2=1) {
+  function product(multiple, num1=0, num2=1) {
     return result = num1 * num2;
   }
 
-  function quotient(operation, num1=0, num2=1) {
+  function quotient(divide, num1=0, num2=1) {
     return result = num1 / num2;
   }
+  
+  return sum();
   
 }
 
@@ -36,6 +39,8 @@ try {
   // Test Case 2
   // --------------------------------------------------
   // It should return the correct difference when the user provides: 'subtract', 20, 10.
+  var result = calc('subtract', 1, 1);
+  if (result !== 0) throw new Error('Expected calc("subtract", 1, 1) to be 0. Received: ' + result);
 
   // --------------------------------------------------
   // Test Case 3
