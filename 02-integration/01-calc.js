@@ -29,6 +29,7 @@ function calc(op, num1, num2) {
   }
 }
 
+
 // ==================================================
 // DEFINE AND EXECUTE TEST CASES
 // ==================================================
@@ -63,6 +64,8 @@ try {
   // Test Case 5
   // --------------------------------------------------
   // It should return the message 'Operation not supported.' when the user provides: exponent, 2, 8.
+  var result = calc('exponent', 2, 8);
+  if (result !== 'Operation not supported.') throw new Error('Expected calc("exponent", 2, 8) is not supported.');
 
   console.log('All tests passed successfully.');
 
